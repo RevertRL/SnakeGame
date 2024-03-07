@@ -8,7 +8,7 @@ This game is a single player game. You control a snake with your arrow keys on y
  * HTML
  * CSS
  * JavaScript
- * Git
+
 
 
 ### High Scores
