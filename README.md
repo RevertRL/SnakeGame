@@ -18,7 +18,8 @@ This game is a single player game. You control a snake with your arrow keys on y
 
 ![](https://i.imgur.com/huBlEo1.png) ![](https://i.imgur.com/6WSVYur.png)
 
-
+## Pseudo Code 
+The pseudo code is in the root directory of this project.
 
 
 ## Credits 
