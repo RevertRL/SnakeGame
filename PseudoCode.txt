@@ -18,10 +18,11 @@ Snake Game
 16. Create function to check win or loss conditions before enabling game.
 17. Create function for snake to gain 1 square of length for every item it eats and tracks the same path as the first block.
 18. Create score system to add 1 for every item the snake eats.
-19. Create a high score array that stores player name and score.
-20. Create function that displays high scores (Name-score).
-21. Create function that waits for game end, then looks through high score array and deletes the lowest score.
-22. Create function that hides and displays (PLAY AGAIN) button.(Hides during game, Displays after end of game)
-23. Create fon click function to reset the board and await player input to start new game.
+19. Create a function that speeds the snake up after score reaches 15(1.5x speed), 30(2.0 speed), 45(2.5 speed), 60(3.0 speed) 
+20. Create a high score array that stores player name and score.
+21. Create function that displays high scores (Name-score).
+22. Create function that waits for game end, then looks through high score array and deletes the lowest score.
+23. Create function that hides and displays (PLAY AGAIN) button.(Hides during game, Displays after end of game)
+24. Create fon click function to reset the board and await player input to start new game.
 
 Game complete
