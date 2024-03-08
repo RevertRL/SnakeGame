@@ -1,4 +1,6 @@
-Snake Game 
+Snake Game 2024
+
+Steps
 
 1. Create 2 HTML files, 1 CSS file, and a JavaScript file.
 2. Link CSS and JavaScript files to HTML files.
@@ -23,6 +25,6 @@ Snake Game
 21. Create function that displays high scores (Name-score).
 22. Create function that waits for game end, then looks through high score array and deletes the lowest score.
 23. Create function that hides and displays (PLAY AGAIN) button.(Hides during game, Displays after end of game)
-24. Create fon click function to reset the board and await player input to start new game.
+24. Create on click function to reset the board and await player input to start new game.
 
 Game complete
