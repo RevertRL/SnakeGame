@@ -6,7 +6,7 @@ Snake Game
 4. On inital page there will be title(SNAKE GAME).
 5. Add click here(here will be the on the button) to play.
 6. On the second HTML file display title at top.
-7. Create semi-large game board with 40x40 square player area.
+7. Create semi-large game board with 20x20 square player area.
 8. Create a place for someone to choose thier name that will be stored for high score data.
 9. Create 3 slots for the top 3 high scores to be displayed.
 10. Create play again button after game ends.
