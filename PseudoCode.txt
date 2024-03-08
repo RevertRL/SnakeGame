@@ -2,7 +2,7 @@ Snake Game 2024
 
 Steps
 
-1. Create 2 HTML files, 1 CSS file, and a JavaScript file.
+1. Create 2 HTML files, 2 CSS file, and a JavaScript file.
 2. Link CSS and JavaScript files to HTML files.
 3. Create intial page in first HTML file.
 4. On inital page there will be title(SNAKE GAME).
