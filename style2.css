@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    
+}
+.board{
+    border-radius: 100px;
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);
+    margin: 5px;
+}
+
+.border {
+    border: black solid 20px;
+}
+
+h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: white;
+    color: black;
+    padding: 2px;
+    border: black solid 5px;
+}
+
+.top3 {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+#playerScores1 {
+    background-color: white;
+    color: black;
+    padding: 2px;
+    border: black solid 5px;
+}
+
+#playerScores2 {
+    background-color: white;
+    color: black;
+    padding: 2px;
+    border: black solid 5px;
+}
+
+#playerScores3 {
+    background-color: white;
+    color: black;
+    padding: 2px;
+    border: black solid 5px;
+}
+
+
+
+
+
+
