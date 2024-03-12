@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+.kode-mono {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 body {
     height: 100vh;
     margin: 0;
@@ -10,9 +17,18 @@ body {
     justify-content: center;
     align-items: center;
     color: black;
-    
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    gap: 100px;    
 }
-.board{
+
+h1 {
+    font-size: 64px;
+}
+
+.board {
     border-radius: 100px;
     display: grid;
     grid-template-columns: repeat(20, 20px);
@@ -24,7 +40,15 @@ body {
     border: black solid 20px;
 }
 
-h2{
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 25px;
+}
+
+
+
+h2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -60,6 +84,11 @@ h2{
     padding: 2px;
     border: black solid 5px;
 }
+
+.snake {
+    background-color: black;
+}
+
 
 
 

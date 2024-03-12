@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+.kode-mono {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 body {
     height: 100vh;
     margin: 0;
@@ -10,5 +17,9 @@ body {
     justify-content: center;
     align-items: center;
     color: black;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     
 }
