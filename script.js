@@ -25,5 +25,9 @@ drawSnake(() =>{
     });
 });
 
+createGameElement((tag, className) => {
+    const gameEl = document.createElement(tag);
+})
+
 
 
