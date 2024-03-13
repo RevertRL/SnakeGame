@@ -78,7 +78,6 @@ function move() {
 
     snake.unshift(head);
 
-    snake.pop();
 // how snake grows when it eats
     if (head.x === food.x && head.y === food.y) {
         food = foodSpawner();
@@ -102,10 +101,7 @@ function startGame() {
 }
 // keyboard inputs
 function handleKeyPress(event) {
-    if (
-        (!gameStarted && event.code === 'Space') ||
-        (!gameStarted && event.key === ' ')
-    ){
+    if (!gameInt) {
         startGame();
     } else {
         switch (event.key) {
