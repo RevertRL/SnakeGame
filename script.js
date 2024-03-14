@@ -7,6 +7,10 @@ const score1 = document.getElementById('playerScores1');
 const score2 = document.getElementById('playerScores2');
 const score3 = document.getElementById('playerScores3');
 const gridSize = 20;
+const playAgain = document.getElementById('playAgain');
+const gameOverMsg = document.getElementById('gameOver')
+
+
 
 // varibles
 let snake = [{ x: 10, y: 10 }];
@@ -15,6 +19,7 @@ let direction = 'right';
 let gameInt;
 let gameSpeed = 200;
 let gameStarted = false;
+let gameOver = false;
 let highScores = [];
 
 // functions
@@ -76,6 +81,11 @@ function move() {
             break;
     }
 
+    if (checkCollision(head)) {
+        endGame();
+        return;
+    }
+
     snake.unshift(head);
 
 // how snake grows when it eats
@@ -122,3 +132,44 @@ function handleKeyPress(event) {
 }
 
 document.addEventListener('keydown' , handleKeyPress);
+
+//checking for collision
+function checkCollision(head) {
+    return (
+        head.x < 0 ||
+        head.x >= gridSize + 1 ||
+        head.y < 0 ||
+        head.y >= gridSize + 1 ||
+        snake.some(segment => segment.x === head.x && segment.y === head.y)
+    );
+}
+
+function endGame() {
+    clearInterval(gameInt);
+    gameOver = true;
+    gameOverMsg.innerText = ('Game Over! Your score: ' + (snake.length - 1));
+    updateHighScores();
+    playAgain.style.display = 'block'; 
+}
+
+function resetGame() {
+    clearInterval(gameInt);
+    snake = [{ x: 10, y: 10 }];
+    food = foodSpawner();
+    direction = 'right';
+    gameOver = false;
+    board.innerHTML = '';
+    gameOverMsg.innerText = '';
+    startGame();
+}
+    
+function updateHighScores() {
+    highScores.push(snake.length - 1);
+    highScores.sort((a, b) => b - a);
+    highScores = highScores.slice(0, 3);
+    score1.innerText = highScores[0] || '-';
+    score2.innerText = highScores[1] || '-';
+    score3.innerText = highScores[2] || '-';
+}
+
+playAgain.addEventListener('click', resetGame);
