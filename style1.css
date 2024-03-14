@@ -16,10 +16,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: rgb(62, 251, 4);
     font-family: "Kode Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    
+    background-image: url(https://i.imgur.com/iE3Hh3K.png);
+    background-size: cover;
+    background-position: center;
 }
