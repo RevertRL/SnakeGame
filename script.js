@@ -10,8 +10,6 @@ const gridSize = 20;
 const playAgain = document.getElementById('playAgain');
 const gameOverMsg = document.getElementById('gameOver')
 
-
-
 // varibles
 let snake = [{ x: 10, y: 10 }];
 let food = foodSpawner()
@@ -105,7 +103,6 @@ function startGame() {
     gameStarted = true;
     gameInt = setInterval(() => {
         move();
-    //    ' collision();'
         draw();
     }, gameSpeed);
 }
