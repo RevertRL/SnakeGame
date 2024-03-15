@@ -23,7 +23,7 @@ The pseudo code is in the root directory of this project.
 
 
 ## Credits 
-  * Few videos i watched to understand how to build it and different ways to go about building it. https://www.youtube.com/watch?v=uyhzCBEGaBY and https://www.youtube.com/watch?v=QTcIXok9wNY
+  * Few videos I watched to understand how to build it and different ways to go about building it. https://www.youtube.com/watch?v=uyhzCBEGaBY and https://www.youtube.com/watch?v=QTcIXok9wNY
   
   * https://chat.openai.com was used to help debug. 
   
